@@ -1,7 +1,7 @@
 {
   "name": "api",
   "module": "index.ts",
-  "type": "module",
+  "type": "commonjs",
   "devDependencies": {
     "bun-types": "latest"
   },
@@ -9,6 +9,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "aws-sdk": "^2.1467.0"
+    "aws-sdk": "^2.1467.0",
+    "dotenv": "^16.3.1"
   }
 }
